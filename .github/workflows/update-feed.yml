@@ -3,9 +3,7 @@ name: Update VGK Official RSS
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/10 * * * *'
-        
+      
 permissions:
   contents: read
   pages: write
